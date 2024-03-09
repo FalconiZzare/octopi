@@ -1,8 +1,10 @@
 /** @type {import("next").NextConfig} */
 const nextConfig = {
-  basePath: "/octopi",
+  basePath: '/octopi',
   output: "export",
-  reactStrictMode: true
+  images: {
+    unoptimized: true
+  }
 };
 
 module.export = nextConfig;
