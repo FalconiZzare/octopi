@@ -3,7 +3,7 @@ const nextConfig = {
   basePath: '/octopi',
   output: "export",
   images: {
-    unoptimized: true
+    unoptimized: true,
   }
 };
 
