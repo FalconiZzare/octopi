@@ -45,7 +45,7 @@ const Hero = () => {
             Unleash the power of infrastructure as code within Octopi. Upgrade and ensure your
             productivity and security with Us.
           </p>
-          <Button href="/pricing" white className={"text-background"}>
+          <Button href="#pricing" white className={"text-background"}>
             Get started
           </Button>
         </div>
