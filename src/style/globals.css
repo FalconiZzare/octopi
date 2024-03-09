@@ -86,3 +86,26 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+@supports (scrollbar-color: auto) {
+  * {
+    scrollbar-color: rgba(71, 64, 96, 1) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+  }
+}
+
+@supports selector(::-webkit-scrollbar) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(71, 64, 96, 1);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}

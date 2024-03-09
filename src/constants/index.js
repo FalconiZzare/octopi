@@ -40,22 +40,22 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#features"
+    url: "#hero"
   },
   {
     id: "1",
     title: "Services",
-    url: "#pricing"
+    url: "#services"
   },
   {
     id: "2",
-    title: "Contact Us",
-    url: "#how-to-use"
+    title: "About Us",
+    url: "#about-us"
   },
   {
     id: "3",
-    title: "About Us",
-    url: "#roadmap"
+    title: "Contact Us",
+    url: "#contact-us"
   },
   {
     id: "4",

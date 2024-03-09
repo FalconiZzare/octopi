@@ -1,7 +1,7 @@
 import "@/style/globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://www.octopi.ai/"),
+  metadataBase: new URL("https://falconizzare.github.io/octopi/"),
   title: "Octopi || Secure Your Business",
   description:
     "Safeguard your data and information through advanced cyber security practices, ensuring the highest level of protection against potential threats.",

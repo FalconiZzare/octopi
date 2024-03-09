@@ -5,18 +5,13 @@ import Heading from "@/components/Heading";
 import { service1, service2, service3, check } from "@/assets";
 import { technologyServices, professionalServices, managedServices } from "@/constants";
 import {
-  PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage
 } from "@/components/design/Services";
 import Image from "next/image";
 
-import Generating from "@/components/Generating";
-
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="services">
       <div className="container">
         <Heading
           title="Secure your business with Octopi."

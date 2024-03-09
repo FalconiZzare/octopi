@@ -7,7 +7,6 @@ import Section from "@/components/Section";
 import { BackgroundCircles, BottomLine, Gradient } from "@/components/design/Hero";
 import { heroIcons } from "@/constants";
 import { ScrollParallax } from "react-just-parallax";
-import Generating from "@/components/Generating";
 import Notification from "@/components/Notification";
 import Image from "next/image";
 
@@ -44,7 +43,7 @@ const Hero = () => {
           </h1>
           <p className="body-1 mx-auto mb-6 max-w-3xl text-n-2 lg:mb-8">
             Unleash the power of infrastructure as code within Octopi. Upgrade and ensure your
-            productivity and security with Us, .
+            productivity and security with Us.
           </p>
           <Button href="/pricing" white className={"text-background"}>
             Get started
