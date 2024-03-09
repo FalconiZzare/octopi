@@ -36,7 +36,7 @@ export const metadata = {
     authors: "Octopi",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "https://falconizzare.github.io/octopi/opengraph-image.png",
         width: 1280,
         height: 720,
         alt: "octopi-preview"
